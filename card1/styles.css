@@ -55,7 +55,7 @@ body {
 
 .cross {
   color: #9b90b2;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .info {
@@ -86,27 +86,26 @@ body {
   font-size: 13px;
 }
 
-.btn{
+.card-footer{
   display: flex;
   justify-content: right;
+  column-gap: 15px;  
 }
 
-.btn-block{
-  margin-right: 10px;
+.btn-style {
+  text-decoration: none;
   background: white;
   padding: 10px 20px;
   border-radius: 5px;
-  border-color: #ff9f9e;
+  font-weight: bold;
+}
+
+.btn-block {
   color: #d96673;
-  font-weight: bold;
+  border: 1px solid #ff9f9e;
 }
 
-.btn-allow{
-  margin-right: 10px;
-  background: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  border-color: #d5eadb;
+.btn-allow {
   color: #74dc8d;
-  font-weight: bold;
+  border: 1px solid #74dc8d;
 }
