@@ -26,20 +26,13 @@ body {
 .card {
   position: fixed;
   width: 445px;
-  height: 235px;
   background-color: #ffffff;
   border-radius: 25px;
-}
-
-.card-header {
-  margin: 0;
-  padding-bottom: 0;
+  padding: 25px 25px 25px 50px;
 }
 
 .text {
-  margin-top: 25px;
   padding-top: 35px;
-  padding-left: 55px;
   font-family: Arial, Helvetica, sans-serif;
   color: #452b74;
   font-weight: bold;
@@ -67,7 +60,7 @@ body {
 
 .info {
   display: flex;
-  margin: 20px 0 5px 55px;
+  margin: 20px 0;
 }
 
 .icon {
@@ -96,8 +89,6 @@ body {
 .btn{
   display: flex;
   justify-content: right;
-  margin-right: 15px;
-
 }
 
 .btn-block{
