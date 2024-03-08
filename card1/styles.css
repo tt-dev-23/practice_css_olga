@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   background-color: #f4edff;
 }
 
@@ -55,11 +54,6 @@ body {
 
 .circle:hover {
   cursor: pointer;
-}
-
-.cross {
-  color: #9b90b2;
-  font-size: 40px;
 }
 
 .info {
