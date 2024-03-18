@@ -13,7 +13,7 @@ body {
   position: relative;
   background-color: #222c85;
   border-radius: 40px;
-  padding: 20px;
+  padding: 30px;
   color: #ffffff;
   font-family: "Merriweather", serif;
   font-size: 14px;
@@ -33,12 +33,12 @@ body {
 }
 
 .body {
-  margin-top: 20px;
+  margin-top: 15px;
   font-family: "Poppins", sans-serif;
 }
 
 .contributors {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .square {
