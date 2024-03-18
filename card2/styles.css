@@ -9,49 +9,42 @@ body {
   margin: 30px;
 }
 
-.card1-area,
-.card2-area,
-.card3-area {
-  padding: 40px;
-  width: 52%;
-}
-
-.card1,
-.card2,
-.card3 {
+.card {
+  position: relative;
   background-color: #222c85;
   border-radius: 40px;
-  padding: 30px;
+  padding: 20px;
   color: #ffffff;
   font-family: "Merriweather", serif;
   font-size: 14px;
-}
-
-.card1 {
+  margin: 3.5em;
   width: 360px;
-  height: 190px;
 }
 
-.card1-header,
-.card2-header,
-.card3-header {
+.card:nth-child(2) {
+  width: 270px;
+}
+
+.header {
   font-weight: 600;
   font-size: 22px;
-}
-
-.card1-header {
   display: flex;
   column-gap: 8px;
 }
 
-.card1-header h2 {
+.body {
   margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.contributors {
+  padding: 20px 0;
 }
 
 .square {
   width: 40px;
   height: 40px;
-  margin-top: 14px;
+  margin-top: -5px;
   background-color: #121b76;
   display: flex;
   flex-direction: column;
@@ -61,7 +54,6 @@ body {
 
 .avatars {
   display: flex;
-  margin-top: 15px;
 }
 
 .avatars img,
@@ -87,67 +79,27 @@ body {
   font-size: 14px;
 }
 
-.card1:after,
-.card2:after,
-.card3:after {
+.card:after {
   content: "";
   position: absolute;
-  width: 300px;
-  height: 100px;
-  top: 280px;
-  left: 100px;
-  z-index: -1;
+  width: 21.5em;
+  top: 12rem;
   height: 2px;
-  box-shadow: 0 11px 10px black;
+  box-shadow: 0 13px 9px black;
 }
 
-.card2:after {
-  width: 215px;
-  top: 640px;
-}
-
-.card3:after {
-  top: 870px;
-}
-
-.card2 {
-  width: 270px;
-  height: 280px;
-}
-
-.card2-body, .card3-body {
-  font-family: "Poppins", sans-serif;
-}
-
-.card2-text {
-  margin-top: 20px;
-  padding-bottom: 20px;
-}
-
-.card2-star:hover,
-.card2-watch:hover {
-  cursor: pointer;
-}
-
-.card2-link,
-.card2-star,
-.card2-watch {
+.about-info {
+  padding-top: 20px;
   display: flex;
   column-gap: 8px;
-  padding-bottom: 22px;
 }
 
-.card2-link .link {
+.about-info .link {
   text-decoration: underline;
   color: #ffffff;
 }
 
-.card3 {
-  width: 360px;
-  height: 150px;
-}
-
-.card3-hr {
+.hr {
   margin: 20px 0;
   padding: 0;
   height: 9px;
@@ -156,27 +108,27 @@ body {
   background: linear-gradient(90deg, #5398fc 34%, #e4bd2f 0%, #e4bd2f 66%);
 }
 
-.card3-languag {
+.languages {
   display: flex;
   column-gap: 25px;
 }
 
-.card3-phyton,
-.card3-typescript {
+.phyton,
+.typescript {
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 7px;
 }
 
-.card3-phyton-circle,
-.card3-typescript-circle {
+.phyton-circle,
+.typescript-circle {
   width: 12px;
   height: 12px;
   background: #5398fc;
   border-radius: 50%;
 }
 
-.card3-typescript-circle {
+.typescript-circle {
   background: #e4bd2f;
 }
