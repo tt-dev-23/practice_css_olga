@@ -85,8 +85,8 @@ h2 {
   position: absolute;
   width: calc(100% - 60px);
   bottom: -0.7em;
-  height: 2px;
-  box-shadow: 0 13px 9px black;
+  height: 0.1em;
+  box-shadow: 0 0.8em 0.6em black;
 }
 
 .about svg {
@@ -94,9 +94,9 @@ h2 {
 }
 
 .about-info {
-  padding-top: 20px;
+  padding-top: 1.25em;
   display: flex;
-  column-gap: 8px;
+  column-gap: 0.5em;
 }
 
 .about-info .link {
@@ -105,7 +105,7 @@ h2 {
 }
 
 .progress {
-  margin: 20px 0;
+  margin: 1.25em 0;
   padding: 0;
   height: 0.7em;
   border: none;
