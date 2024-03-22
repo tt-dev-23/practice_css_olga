@@ -101,6 +101,7 @@ h2 {
 .about-info {
   padding-top: 1.25em;
   display: flex;
+  align-items: center;
   column-gap: 0.5em;
 }
 
