@@ -19,7 +19,7 @@ body {
   font-family: "Merriweather", serif;
   font-size: 0.88em;
   margin: 3.5em;
-  width: 52em;
+  width: 50em;
   box-shadow: 10px 7px 1px 7px rgba(230, 239, 255);
 }
 
@@ -64,7 +64,7 @@ li {
 }
 
 .line {
-  margin: 1.4em;
+  margin: 1.4em 0.5em;
   height: 4px;
   width: calc(32em*var(--gap)*1/100);
   border: none;
@@ -87,11 +87,13 @@ li {
 .traffic h4 {
   display: flex;
   align-items: center;
+  justify-content: end;
 }
 
 .traffic h4::after {
   font-size: 0.9em;
   font-weight: 700;
+  width: 4em;
   content: attr(data-count);
 }
 
@@ -101,5 +103,5 @@ li {
   font-size: 0.9em;
   font-weight: 500;
   position: absolute;
-  right: 35px;
+  right: 2.5em;
 }
