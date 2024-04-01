@@ -37,7 +37,7 @@ h2 {
   margin: 2em 0;
   display: flex;
   column-gap: 2em;
-  align-items: center;
+  align-items: start;
 }
 
 svg {
@@ -71,15 +71,15 @@ li {
   background: #5398fc;
 }
 
-.direct{
+.direct {
   background: #1953e5;
 }
 
-.search{
+.search {
   background: #4276e6;
 }
 
-.external{
+.external {
   background: #95b7fe;
 }
 
@@ -101,6 +101,6 @@ li {
   text-decoration: underline;
   font-size: 0.9em;
   font-weight: 500;
-  position: absolute;
-  right: 2.5em;
+  float: right;
+  margin-right: 1em;
 }
